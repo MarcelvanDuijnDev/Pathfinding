@@ -12,6 +12,11 @@ public class Grid : MonoBehaviour
     float nodeDiameter;
     int gridSizeX, gridSizeY;
 
+    void Start()
+    {
+
+    }
+
     void Awake()
     {
         nodeDiameter = nodeRadius * 2;
